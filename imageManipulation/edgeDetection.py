@@ -2,7 +2,7 @@
 import cv2
 import numpy as np
  
-image=cv2.imread('/home/akashkg/test_imgs/img10.jpg')
+image=cv2.imread('/home/akashkg/test_imgs/img10.jpg',0)
 cv2.imshow("Original",image)
 cv2.waitKey()
 

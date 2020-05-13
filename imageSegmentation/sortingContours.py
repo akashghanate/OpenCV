@@ -1,11 +1,11 @@
 import cv2
 import numpy as np 
 
-image=cv2.imread('/home/akashkg/test_imgs/img12.png')
+image=cv2.imread('/home/akashkg/OpenCV/images/shapes.png')
 cv2.imshow("original",image)
 cv2.waitKey()
 copy=image
-#crate a blank image as same dimensions as original image
+#create a blank image as same dimensions as original image
 blank=np.zeros(image.shape)
 #grayscale
 gray=cv2.cvtColor(image,cv2.COLOR_BGR2GRAY)

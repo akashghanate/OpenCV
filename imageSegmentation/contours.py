@@ -1,12 +1,12 @@
 #segmentation - partitioning images into different regions
 #contours are the continuous lines or curves that bound/cover the object completely
-# contours are important in object ddetection and shape analysis
+# contours are important in object dtetection and shape analysis
 
 import cv2
 import numpy as np
 
 #image with 3 square's
-image=cv2.imread('/home/akashkg/test_imgs/img11.png')
+image=cv2.imread('/home/akashkg/OpenCV/images/shapes.png')
 cv2.imshow("original",image)
 cv2.waitKey()
 

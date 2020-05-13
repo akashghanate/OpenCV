@@ -4,8 +4,8 @@ import numpy as np
 
 #use matplotlib to create histogram plots
 from matplotlib import pyplot as plt 
-
-image=cv2.imread('/home/akashkg/Pictures/test2.jpg')
+#The image should be used in a PNG file as matplotlib supports only PNG images.
+image=cv2.imread('/home/akashkg/OpenCV/images/shapes.png')
 
 #calculating histogram using calcHist
 # cv2.calcHist([images],[channels],mask,[histSize],ranges[,])

@@ -1,7 +1,7 @@
 import cv2 #import openCV2 package
 import numpy as np #import numpy as short np 
 
-input=cv2.imread('/home/akashkg/Pictures/test.jpg')
+input=cv2.imread('/home/akashkg/OpenCV/images/shapes.png')
 
 #get BGR values for pixel at 0,0 
 B, G, R=input[0,0]

@@ -1,7 +1,7 @@
 import cv2 #import openCV2 package
 import numpy as np #import numpy as short np 
 
-input=cv2.imread('/home/akashkg/Pictures/test2.jpg')
+input=cv2.imread('/home/akashkg/OpenCV/images/shapes.png')
 
 #split image into individual channels
 B, G, R=cv2.split(input)

@@ -1,7 +1,7 @@
 import cv2
 import numpy as np 
 
-input=cv2.imread('/home/akashkg/test_imgs/img8.png')
+input=cv2.imread('/home/akashkg/OpenCV/images/shapes.png')
 
 #types of interpolations
 # cv2.INTER_AREA - Good for shrinking or down sampling

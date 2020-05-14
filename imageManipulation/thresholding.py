@@ -13,7 +13,7 @@ import numpy as np
 # cv2.THRESH_TOZERO
 # cv2.THRESH_TOZERO_INV
 
-input=cv2.imread('/home/akashkg/test_imgs/img8.png',0)
+input=cv2.imread('/home/akashkg/OpenCV/images/shapes.png',0)
 cv2.imshow("Original",input)
 cv2.waitKey()
 

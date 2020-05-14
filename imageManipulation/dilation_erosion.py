@@ -6,7 +6,7 @@
 import cv2
 import numpy as np
  
-input=cv2.imread('/home/akashkg/test_imgs/img9.jpg')
+input=cv2.imread('/home/akashkg/OpenCV/images/shapes.png')
 cv2.imshow("Original",input)
 cv2.waitKey()
 

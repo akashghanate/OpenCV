@@ -2,7 +2,7 @@
 import cv2
 import numpy as np 
 
-input=cv2.imread('/home/akashkg/test_imgs/img8.png')
+input=cv2.imread('/home/akashkg/OpenCV/images/shapes.png')
 
 # kernel= |-1 -1 -1 |
 #         |-1  9 -1 |

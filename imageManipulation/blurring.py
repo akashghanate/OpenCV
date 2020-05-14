@@ -1,7 +1,7 @@
 import cv2
 import numpy as np 
 
-input=cv2.imread('/home/akashkg/test_imgs/img8.png')
+input=cv2.imread('/home/akashkg/OpenCV/images/shapes.png')
 cv2.imshow("Original",input)
 cv2.waitKey()
 cv2.destroyAllWindows()

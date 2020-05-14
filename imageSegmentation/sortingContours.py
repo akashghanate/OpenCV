@@ -1,7 +1,7 @@
 import cv2
 import numpy as np 
 
-image=cv2.imread('/home/akashkg/OpenCV/images/shapes.png')
+image=cv2.imread('/home/akashkg/OpenCV/images/index.png')
 cv2.imshow("original",image)
 cv2.waitKey()
 copy=image

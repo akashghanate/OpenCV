@@ -3,7 +3,7 @@
 import cv2
 import numpy as np 
 
-input=cv2.imread('/home/akashkg/test_imgs/img8.png')
+input=cv2.imread('/home/akashkg/OpenCV/images/shapes.png')
  
 #create an matrix of ones with dimensions of original image
 # multiple an scaler value of desired to intensify

@@ -5,8 +5,8 @@
 import cv2
 import numpy as np
 
-#image with 3 square's
-image=cv2.imread('/home/akashkg/OpenCV/images/shapes.png')
+#image 
+image=cv2.imread('/home/akashkg/OpenCV/images/order-copy.jpg')
 cv2.imshow("original",image)
 cv2.waitKey()
 
